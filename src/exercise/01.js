@@ -86,8 +86,10 @@ async function updateUser(dispatch, user, updates) {
   }
 }
 
+// example on how to export it if in a different file
 // export {UserProvider, useUser}
 
+// example on how ti import from a different file
 // src/screens/user-profile.js
 // import {UserProvider, useUser, updateUser} from './context/user-context'
 
